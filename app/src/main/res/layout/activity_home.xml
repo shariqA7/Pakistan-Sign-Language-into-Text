@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:cardBackgroundColor="@color/purple_700"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="-10dp"
+        android:elevation="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <TextView
+                android:id="@+id/h1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome to PSL"
+                android:textColor="@color/white"
+                android:textSize="28dp"
+                android:fontFamily="@font/roboto_medium"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+
+                />
+
+            <TextView
+                android:id="@+id/h2"
+                android:fontFamily="@font/roboto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/h1"
+                android:layout_centerHorizontal="true"
+                android:text="Pakistan Sign Language"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                />
+
+            <TextView
+                android:id="@+id/email"
+                android:fontFamily="@font/roboto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/h2"
+                android:layout_centerHorizontal="true"
+                android:text="user@mail.com"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:layout_marginTop="20dp"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/detect"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/card"
+        android:layout_marginTop="110dp"
+        android:layout_centerHorizontal="true"
+        android:text="Start Detection"
+        android:gravity="center"
+        android:elevation="8dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:backgroundTint="@color/purple_700"/>
+    <ImageView
+        android:id="@+id/logout"
+        android:elevation="5dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/detect"
+        android:src="@drawable/ic_round_power_settings_new_24"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        />
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "905783145256",
+    "project_id": "pakistansigntotext",
+    "storage_bucket": "pakistansigntotext.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905783145256:android:85c53541833a9e47f7161d",
+        "android_client_info": {
+          "package_name": "com.example.pakistansigntotext"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905783145256-qn4bsuuamn3fqoeggcpo4t4sc3om7lp9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZoZ2uGzS7cZRPid-B4s6tPTowaYWl-lQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905783145256-qn4bsuuamn3fqoeggcpo4t4sc3om7lp9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
